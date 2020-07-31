@@ -1,0 +1,13 @@
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/bin/Debug/netcoreapp3.1/hello_world
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/bin/Debug/netcoreapp3.1/hello_world.deps.json
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/bin/Debug/netcoreapp3.1/hello_world.runtimeconfig.json
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/bin/Debug/netcoreapp3.1/hello_world.runtimeconfig.dev.json
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/bin/Debug/netcoreapp3.1/hello_world.dll
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/bin/Debug/netcoreapp3.1/hello_world.pdb
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/obj/Debug/netcoreapp3.1/hello_world.csprojAssemblyReference.cache
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/obj/Debug/netcoreapp3.1/hello_world.AssemblyInfoInputs.cache
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/obj/Debug/netcoreapp3.1/hello_world.AssemblyInfo.cs
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/obj/Debug/netcoreapp3.1/hello_world.csproj.CoreCompileInputs.cache
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/obj/Debug/netcoreapp3.1/hello_world.dll
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/obj/Debug/netcoreapp3.1/hello_world.pdb
+/home/ornwipa/Desktop/ComIT/vscode_learning/hello_world/obj/Debug/netcoreapp3.1/hello_world.genruntimeconfig.cache
