@@ -70,7 +70,7 @@ namespace hello_world
             }
             Console.WriteLine($"The sum is {sum}.");
 
-            var names = new List<string> {"Jesselyn", "Joel", "Pablo"};
+            var names = new List<string> {"Bill", "Anna", "Yves"};
             //string[] names = {"Jesselyn", "Joel", "Pablo"};
             foreach (var name in names)
             {
