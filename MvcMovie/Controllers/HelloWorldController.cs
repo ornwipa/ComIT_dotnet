@@ -8,10 +8,18 @@ namespace MvcMovie.Controllers
         // 
         // GET: /HelloWorld/
 
-        public string Index()
+        // public string Index()
+        // {
+        //     return "This is my default action...";
+        // }
+        public IActionResult Index()
         {
-            return "This is my default action...";
+            return View(); // the method uses a view template file to render a response to the browser.
         }
+        // The preceding code calls the controller's View method. 
+        // It uses a view template to generate an HTML response. 
+        // Controller methods (also known as action methods), such as the Index method above, 
+        // generally return an IActionResult (or a class derived from ActionResult).
 
         // 
         // GET: /HelloWorld/Welcome/ 
@@ -24,9 +32,16 @@ namespace MvcMovie.Controllers
         // {
         //     return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");
         // }
-        public string Welcome(string name, int ID = 1)
+        // public string Welcome(string name, int ID = 1)
+        // {
+        //     return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+        // }
+        public IActionResult Welcome(string name, int numTimes = 1)
         {
-            return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = numTimes;
+
+            return View();
         }
 
         // Every public method in a controller is callable as an HTTP endpoint. 
