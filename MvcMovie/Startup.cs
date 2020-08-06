@@ -52,6 +52,8 @@ namespace MvcMovie
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            // MVC invokes controller classes (and the action methods within them) depending on the incoming URL. 
+            // The default URL routing logic used by MVC uses a format like /[Controller]/[ActionName]/[Parameters]
         }
     }
 }
