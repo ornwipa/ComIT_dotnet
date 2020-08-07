@@ -7,7 +7,7 @@
     },
     "configProperties": {
       "System.GC.Server": true,
-      "System.Globalization.Invariant": true
+      "System.Globalization.Inveriant": true
     }
   }
 }
