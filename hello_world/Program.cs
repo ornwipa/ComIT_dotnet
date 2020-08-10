@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+// using other_namespace;
 
 namespace hello_world
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void practiceGeneral()
         {
             int maxi = int.MaxValue;
             int mini = int.MinValue;
@@ -69,9 +70,19 @@ namespace hello_world
                 }
             }
             Console.WriteLine($"The sum is {sum}.");
+        
+            // exercise: generate the first 20 Fibonacci numbers in the sequence
+            var fibonacciNumbers = new List<int> {1, 1};
+            while (fibonacciNumbers.Count < 20)
+            {
+                var previous1 = fibonacciNumbers[fibonacciNumbers.Count - 1];
+                var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+                fibonacciNumbers.Add(previous1 + previous2);
+                Console.WriteLine(previous1 + previous2);
+            }
 
             var names = new List<string> {"Bill", "Anna", "Yves"};
-            //string[] names = {"Jesselyn", "Joel", "Pablo"};
+            //string[] names = {"Bill", "Anna", "Yves"};
             foreach (var name in names)
             {
                 Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -91,16 +102,42 @@ namespace hello_world
             {
                 Console.WriteLine($"Hello {name.ToUpper()}!");
             }
-
-            // exercise: generate the first 20 Fibonacci numbers in the sequence
-            var fibonacciNumbers = new List<int> {1, 1};
-            while (fibonacciNumbers.Count < 20)
-            {
-                var previous1 = fibonacciNumbers[fibonacciNumbers.Count - 1];
-                var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
-                fibonacciNumbers.Add(previous1 + previous2);
-                Console.WriteLine(previous1 + previous2);
-            }
         }
+
+        /*
+        Multi-line commenting example - main entry point of the program
+        <tag> jiblish </tag>
+        */
+        static void Main(string[] args)
+        {
+            Console.WriteLine(PrintHello()); // call PrintHello method
+
+            Console.ReadKey(); // wait for some input to exit
+
+            WriteHello.PrintHelloFromClass();
+
+            Console.ReadKey();
+
+            WriteHello instance = new WriteHello();
+            instance.PrintHelloFromInstance();
+        }
+        static string PrintHello()
+        {
+            return "Hello in the main program!";
+        }
+    }
+    public class WriteHello
+    {
+        public static void PrintHelloFromClass()
+        {
+            Console.WriteLine("Hello from the other class!");
+        }
+        string message = "Hello from the instance!";
+        public void PrintHelloFromInstance()
+        {
+            Console.WriteLine(this.message);
+        }
+        const int number = 0; // define constant, cannot change like variable
+        byte instruction = (byte)0xff; // bitwise variable
     }
 }
