@@ -5,6 +5,14 @@ using System.Linq;
 
 namespace hello_world
 {
+    class Dog
+    {
+        public string name;
+        public override bool Equals(object obj) // a dog equals another dog
+        {
+            return this.name == (obj as Dog).name; // if names are the same
+        }
+    }
     class Program
     {
         public static void practiceGeneral()
@@ -102,6 +110,12 @@ namespace hello_world
             {
                 Console.WriteLine($"Hello {name.ToUpper()}!");
             }
+
+            // demo comparing strings and numbers
+            string first = "Hello World";
+            string second = "Hello World";
+            Console.WriteLine("{0}", first.Equals(second));
+            Console.WriteLine("{0}", 1 == 1.0);
         }
 
         /*
@@ -120,6 +134,25 @@ namespace hello_world
 
             WriteHello instance = new WriteHello();
             instance.PrintHelloFromInstance();
+
+            Console.ReadKey();         
+
+            Dog first = new Dog();
+            first.name = "Jarvis";
+            Dog second = new Dog();
+            second.name = "Jarvis";
+            Console.WriteLine("{0}", first.Equals(second)); // functions were overridden
+        
+            int number;
+            string number_string = "5 ";
+            bool success = int.TryParse(number_string, out number);
+            Console.WriteLine("The number is: {0}", number); // when it fails, default value = 0
+
+            int number5 = int.Parse(number_string);
+            Console.WriteLine("The number is: {0}", number5);
+
+            // var result = number_string.Split(',');
+            string[] result = number_string.Split('.');
         }
         static string PrintHello()
         {
