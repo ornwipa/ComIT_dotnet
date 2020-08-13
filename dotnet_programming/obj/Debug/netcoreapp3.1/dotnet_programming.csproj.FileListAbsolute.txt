@@ -1,0 +1,13 @@
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/obj/Debug/netcoreapp3.1/dotnet_programming.csprojAssemblyReference.cache
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/obj/Debug/netcoreapp3.1/dotnet_programming.AssemblyInfoInputs.cache
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/obj/Debug/netcoreapp3.1/dotnet_programming.AssemblyInfo.cs
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/obj/Debug/netcoreapp3.1/dotnet_programming.csproj.CoreCompileInputs.cache
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/bin/Debug/netcoreapp3.1/dotnet_programming
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/bin/Debug/netcoreapp3.1/dotnet_programming.deps.json
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/bin/Debug/netcoreapp3.1/dotnet_programming.runtimeconfig.json
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/bin/Debug/netcoreapp3.1/dotnet_programming.runtimeconfig.dev.json
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/bin/Debug/netcoreapp3.1/dotnet_programming.dll
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/bin/Debug/netcoreapp3.1/dotnet_programming.pdb
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/obj/Debug/netcoreapp3.1/dotnet_programming.dll
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/obj/Debug/netcoreapp3.1/dotnet_programming.pdb
+/home/ornwipa/Desktop/ComIT/dotnet_learning/dotnet_programming/obj/Debug/netcoreapp3.1/dotnet_programming.genruntimeconfig.cache
