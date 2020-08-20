@@ -1,4 +1,5 @@
+obj/
+bin/
 .cache
-firstWebApp/obj/Debug/netcoreapp3.1/project.razor.json
-hello_world/obj/Debug/netcoreapp3.1/hello_world.assets.cache
-hello_world/obj/Debug/netcoreapp3.1/hello_world.csprojAssemblyReference.cache
+.vscode/
+
