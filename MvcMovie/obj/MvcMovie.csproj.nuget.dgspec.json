@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ornwipa/ComIT.NETcourse/MvcMovie/MvcMovie.csproj": {}
+    "/home/ornwipa/Desktop/ComIT/dotnet_learning/MvcMovie/MvcMovie.csproj": {}
   },
   "projects": {
-    "/home/ornwipa/ComIT.NETcourse/MvcMovie/MvcMovie.csproj": {
+    "/home/ornwipa/Desktop/ComIT/dotnet_learning/MvcMovie/MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ornwipa/ComIT.NETcourse/MvcMovie/MvcMovie.csproj",
+        "projectUniqueName": "/home/ornwipa/Desktop/ComIT/dotnet_learning/MvcMovie/MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "/home/ornwipa/ComIT.NETcourse/MvcMovie/MvcMovie.csproj",
+        "projectPath": "/home/ornwipa/Desktop/ComIT/dotnet_learning/MvcMovie/MvcMovie.csproj",
         "packagesPath": "/home/ornwipa/.nuget/packages/",
-        "outputPath": "/home/ornwipa/ComIT.NETcourse/MvcMovie/obj/",
+        "outputPath": "/home/ornwipa/Desktop/ComIT/dotnet_learning/MvcMovie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ornwipa/.nuget/NuGet/NuGet.Config"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }

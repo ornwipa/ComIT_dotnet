@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eDnMy4wa4qkgKMECyInzp/8xfqw2Kt28stBk+M4UwtwIngtmCiZA0+wjOAUPRMeNELXDqZSgZ2QSMs4j5unHUg==",
+  "dgSpecHash": "zi+pIHaOtNebYCw6DAu4IoLYVYldMpV4zocnMvZdDRBrH8e2w/fatMR6YElqgSrr0KWi0tIkrVWjzNEK1Wpesw==",
   "success": true,
-  "projectFilePath": "/home/ornwipa/ComIT.NETcourse/MvcMovie/MvcMovie.csproj",
+  "projectFilePath": "/home/ornwipa/Desktop/ComIT/dotnet_learning/MvcMovie/MvcMovie.csproj",
   "expectedPackageFiles": [
     "/home/ornwipa/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/home/ornwipa/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
