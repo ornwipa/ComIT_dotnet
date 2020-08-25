@@ -27,7 +27,7 @@ namespace Transportation // only for organizing code
                 {
                     this.Seats = value; // "value" is always assumed name
                 }
-            }
+            } 
         }
         
         private string engine;
