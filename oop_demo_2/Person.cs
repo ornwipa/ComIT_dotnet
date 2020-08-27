@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace oop_demo
 {
-    class Person
+    public class Person
     {
         private List<Person> friends;
         public Person()
