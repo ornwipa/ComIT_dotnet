@@ -3,6 +3,8 @@ bin/
 *.db
 *.cache
 .vscode/
+helloworld/
+firstWebApp/
 studentList/
 CountryList/
 Screenshot*
