@@ -1,5 +1,8 @@
 obj/
 bin/
-.cache
+*.db
+*.cache
 .vscode/
-
+studentList/
+CountryList/
+Screenshot*
