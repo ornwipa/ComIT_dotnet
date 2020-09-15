@@ -4,7 +4,7 @@ namespace Animals
 {
     public abstract class Animal
     {
-        public bool alive; // attribute that are common and can be inherited.
+        public bool alive; // attribute that are common and can be inherited
         public void StartLife()
         {
             Console.WriteLine("Hello world!");
@@ -26,18 +26,29 @@ namespace Animals
             // cannot use base keyword, like base.MethodStatus()
             Console.WriteLine("Method called from Cat class");
         }
-        public override void Sound() // redefition
+        public sealed override void Sound() // redefition
         {
             // base.Sound(); // have access to base implementation
             Console.WriteLine("Miau");
         }
         public abstract void Pounce();
+        public static void UseLitter()
+        {
+        }
     }
     public class Tiger : Cat
     {
+        /* cannot override inheried member because it is sealed
+        public override void Sound()
+        {
+        }*/
         public override void Pounce()
         {
             Console.WriteLine("Raaawwrrr");
+        }
+        public new void UseLitter()
+        {
+            // cannot re-define static method, can only hide it
         }
     }
     public class Dog : Animal
