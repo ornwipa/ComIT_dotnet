@@ -1,0 +1,20 @@
+h1, h2, h3
+{
+    color:orangered; 
+    font-size: 20px;
+}
+
+#index
+{
+    font-size: 25px;
+}
+
+.bigRed
+{
+    color:red;
+}
+
+.bookLinks .purple
+{
+    color:orchid;
+}
