@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="js/jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <form action="https:duckduckgo.com" method="get">
+            <label for="search">Search</label>
+            <input type="text" name="q"><br>
+            <button type="submit" id="button1">Submit</button>
+        </form>
+        <button type="submit" id="button2">Click ME!!</button>
+        <div id="content">
+
+        </div>
+    </body>
+    <script>
+        var parameter = "Hello World";
+
+        $(document).ready(function(){
+            console.log();
+            $("#button2").on("click", onButtonClick); // addEventLister
+        });
+        // function onDocumentLoaded(event) {
+            // let button_element = document.getElementById("button2");
+            // button_element.addEventListener("click", onButtonClick);
+        // }
+        function onButtonClick(event) {
+            console.log("Button Clicked");
+            alert("Button was clicked!");
+
+            // let content = document.getElementById("content");
+            // content.innerHTML = "<b>Button was clicked!</b>";
+            $("#content").innerHTML = "User jquery here";
+            // content.setAttribute("class", "alert alert-primary");
+            $("#content").addClass("alert alert-primary");
+
+            var class_string = content.getAttribute("class");
+            var class_list = class_string.split(",");
+        }
+        // document.addEventListener('DOMContentLoaded', onDocumentLoaded);
+    </script>
+</html>
