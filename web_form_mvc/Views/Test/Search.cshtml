@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <form action="@Url.Action("Search", "Test")" method="post">
+            <label for="search">Search</label>
+            <input type="text" name="query">
+            <button type="submit" id="button1">Submit</button>
+        </form>
+        @{
+            if (ViewBag.query != null)
+            {
+                <div class = "alert">
+                    <p>The query was: @ViewBag.Query</p>
+                </div>
+            }
+        }
+    </body>
+</html>
